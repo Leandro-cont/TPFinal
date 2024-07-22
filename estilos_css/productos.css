@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    }
+header{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(148, 159, 219);
+}
+.ulNav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.ulNav li {
+    margin: 0;
+    padding: 10px;
+}
+
+.ulNav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li:hover{
+  transition: 250ms;
+  text-decoration: underline;
+}
+.imgLogo{
+    width: 25%;
+    height: 100%;
+}
+nav{
+    width: 75%;
+    height: 100%;
+}
+.lista{
+    margin-bottom: 0px;
+    margin-left: 40%;
+    justify-content: start;
+    align-items: center;
+}
